@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+#wrapper{
+    background-color: white;
+    width: 1440px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+nav{
+    background-color: #270082;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 55px;
+    padding: 0px 100px;
+    position: fixed;
+    z-index: 100;
+    /* position: fixed; */
+}
+nav ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.hero-section{
+    height: 1024px;
+    width: 1440px;
+    border: 1px solid black;
+    background-image: url(./img/Frame\ 1.png);
+    object-fit: contain;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.heading{
+    height: 243px;
+    width: 841px;
+    /* border: 1px solid black; */
+    color: white;
+    /* display: flex; */
+    text-align: center;
+    margin: 414px 299px 367px 300px;
+    
+}
+
+h1{
+    font-size: 72px;
+    margin-bottom: 32px;
+}
+
+p1 p2{
+    margin-bottom: 32px;
+    font-size: 25px;
+    /* text-align: justify; */
+}
+p1{
+    font-size: 30px;
+}
+
+.content{
+    height: 806px;
+    width: 1440px;
+    background-color: #281154;
+    border: 1px solid black;
+    /* text-align: center; */
+}
+
+.container{
+    height: 361px;
+    width: 970px;
+    margin: 37px 235px 408px 235px;
+    /* border: 1px  solid rgb(255, 254, 254); */
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+}
+
+.music{
+    height: 50px;
+    width: 159px;
+    /* border: 1px solid red; */
+    margin-bottom: 17px;
+    display: flex;
+    gap: 10px;
+}
+.music .logo{
+    /* border: 1px solid rgb(252, 249, 249); */
+    width: 50px;
+    height: 50px;
+}
+.music .name{
+    /* border: 1px solid rgb(252, 249, 249); */
+    width: 99px;
+    height: 50px;
+    font-size: 26px;
+    font-style: bold;
+}
+p3{
+    font-size: 27px;
+    margin-bottom: 37px;
+}
+p4{
+    font-size: 18px;
+    margin-bottom: 17px;
+}
+.trial-button{
+    height: 55px;
+    width: 183px;background-color: red;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 29px;
+    padding-top: 20px;
+}
+p5{
+    font-size: 16px;
+}
+.promo-img{
+    /* border: 1px  solid rgb(0, 0, 0); */
+    /* position: absolute; */
+    height: 664px;
+    width: 915px;
+    margin-top: -361px;
+    margin-left: 290px;
+    
+}
+
+.information{
+    /* border: 1px  solid rgb(0, 0, 0); */
+    height: 303px;
+    width: 1045px;
+    text-align: center;
+    margin:77px 198px 50px 197px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.readmore-button{
+    height: 50px;
+    width: 133px;
+    background-color: #37008E;
+    font-size: 20px;
+    padding-top: 15px;
+    color: white;
+}
+
+.outlook{
+    width: 1024px;
+    height: 590px;
+    /* border: 1px solid black; */
+    margin: 50px 198px 59px  218px;
+    background-image: url(./img/MacBook\ Pro.png);
+    object-fit: cover;
+}
+
+.party-oulook{
+    height: 701px;
+    width: 1440px;
+    background-image: url(./img/Frame\ 4.png);
+    color: white;
+}
+.party-info{
+    height: 122px;
+    inline-size: 937px;
+    /* border: 1px solid black; */
+    position:absolute;
+    margin: 197px 251px 282px 252px;
+    text-align: center;
+}
+h2{
+    font-size: 25px ;
+    margin-bottom: 39px;
+}
+
+.giftcards{
+    height: 310px;
+    width: 1080px;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 36px;
+    margin: 97px 180px 83px 180px;
+}
+.giftcard-img{
+    height: 310px;
+    width: 468px;
+    background-image: url(./img/pngwing\ 1.png);
+    object-fit: fill;
+    /* border: 1px solid black; */
+}
+.giftcard-txt{
+    height: 310px;
+    width: 576px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+p6{
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.redeem{
+    height: 39px;
+    width: 113px;
+    background-color:#37008E;
+    color: white;
+    font-size: 20px;
+    padding: 6px 25px 4px 22px;
+}
+
+h4{
+    font-size: 30px;
+}
+
+
+.footer{
+    width: 1440px;
+    height: 292px;
+    border: 1px solid black;
+    background-color: #1B0058;
+    color: white;
+
+}
+
+
+.footer-section{
+    height: 138px;
+    width: 950px;
+    border: 1px solid black;
+    display: flex;
+    gap: 23px;
+    margin:50px 145px 53px 245px ;
+    color: white;
+}
+.item{
+    /* background-color: pink; */
+    height: 138px;
+    width: 220px;
+}
+
+h5{
+    font-size: 20px;
+}
+hr{
+    margin-bottom: 21px;
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.copy{
+    width: 1440px;
+    height: 51px;
+    background-color: #270082;
+    /* align-items: center; */
+    text-align: center;
+    padding-top: 15px;
+}
